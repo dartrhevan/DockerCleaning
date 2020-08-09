@@ -1,0 +1,1 @@
+for /F %%D in ('docker images --format "{{.ID}}"') do docker rmi %%D
